@@ -9,7 +9,21 @@
 h1{
     font-weight: 300;
 }
+.temperature {
+    color: #908A87;
+}
 
+.celsius {
+    font-size: 15px;
+}
+.fahrenhi {
+    font-size: 15px;
+}
+
+h5 {
+    color: #908A87;
+    font-size: 15px;
+}
 
 ul{
     list-style: none;
