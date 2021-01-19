@@ -1,3 +1,11 @@
 h1{
-    color: blueviolet;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+.top{
+    text-align: center;
+    
 }
