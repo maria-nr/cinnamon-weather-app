@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="src/style.css">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
+   <link rel="stylesheet" href="src/style.css">  
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
    <title>Weather app</title>
 </head>
 <body>
 <div class="container">
   <div class="weather-app">
     <div class="information-title">
-    <h1>
-    New york
-    <div class="temperature"> 7 
+    <h1 id="city">
+    </h1>
+    <div class="temp"> <strong id="temperature"> </strong> 
     <span class="celsius"> ºC | </span> 
     <span class="fahrenhi"> ºF </span> 
     </div>
-    </h1>
+    
     <h5>
       Sunny day 
     </h5>
@@ -29,7 +30,7 @@
           <li class="day-hours"> 
             Tuesday | Jan 19 | 14:23
           </li>
-          <li class="sky-view"> 
+          <li class="sky-view" id="description"> 
             Clear Sky 
            </li>
         </ul>
@@ -39,13 +40,12 @@
       <div class="col-md-6">
       <ul>
         <li>
-        Precipitation: 2% 
+        Humidity: 
+        <span id="humidity"></span>% 
         </li>
         <li>
-        Humidity: 2% 
-        </li>
-        <li>
-        Wind: 2% 
+        Wind:
+        <span id="wind"></span>km/h
         </li>
       </ul>
         </div>
