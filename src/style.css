@@ -11,15 +11,6 @@ h1{
     margin-bottom: 0;
 }
 
-.h5, h5 {
-    font-size: 0;
-  }
-
-h5 {
-    color: #908A87;
-    font-size: 20px;
-}
-
 .temperature {
     color: #908A87;
 }
@@ -39,7 +30,10 @@ ul{
 }
 li{
     text-transform: capitalize;
+    color: #908A87;
+    font-size: 15px;
 }
+
 .top{
     text-align: center;
     
