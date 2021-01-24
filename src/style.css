@@ -36,9 +36,13 @@ ul{
     text-transform: lowercase;
 }
 li{
-    text-transform: capitalize;
+    
     color: #908A87;
     font-size: 15px;
+}
+li::first-letter {
+    text-transform: capitalize;
+
 }
 
 .top{
