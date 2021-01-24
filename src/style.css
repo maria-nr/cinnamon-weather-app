@@ -17,6 +17,10 @@ h1{
     margin-bottom: 0;
 }
 
+hr {
+    color: gainsboro;
+    height: 2px;
+}
 .temperature {
     color: #908A87;
 }
@@ -37,7 +41,7 @@ ul{
 }
 li{
     
-    color: #908A87;
+    color: #6d6868;
     font-size: 15px;
 }
 li::first-letter {
