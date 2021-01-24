@@ -1,9 +1,15 @@
 .weather-app {
-    max-width: 600px;
+    max-width: 300px;
     margin: 30px auto;
     padding: 25px;
     border: 1px solid #cbcef1cc;
     border-radius: 8px;
+}
+.lisbontrain{
+    max-width: 200px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
 }
 
 h1{
@@ -24,6 +30,7 @@ h1{
 
 ul{
     list-style: none;
+    padding-inline-start: 0px;
 }
 .wind {
     text-transform: lowercase;
