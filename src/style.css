@@ -1,3 +1,7 @@
+#search {
+    margin: 10 px;
+    padding: 0 auto;
+}
 .weather-app {
     max-width: 300px;
     margin: 30px auto;
@@ -5,6 +9,7 @@
     border: 1px solid #cbcef1cc;
     border-radius: 8px;
 }
+
 .lisbontrain{
     max-width: 200px;
     display: block;
