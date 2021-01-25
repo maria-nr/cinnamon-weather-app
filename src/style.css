@@ -1,6 +1,13 @@
-#search {
-    margin: 10 px;
-    padding: 0 auto;
+.btn-light {
+    
+    padding-top: -3 auto;
+    margin-left: -14px;
+    font-size: 13px;
+    color: lightseagreen;
+}
+
+.city-input {
+    padding-left: 0 auto;
 }
 .weather-app {
     max-width: 300px;
@@ -21,6 +28,17 @@ h1{
     font-weight: 300;
     margin-bottom: 0;
 }
+.temp .active{
+    color: black;
+    cursor: default;
+    
+}
+
+.#active:hover {
+    text-decoration: none;
+}
+
+
 
 hr {
     color: gainsboro;
@@ -57,4 +75,9 @@ li::first-letter {
 .top{
     text-align: center;
     
+}
+
+small {
+    text-align: center;
+    display: block;
 }
