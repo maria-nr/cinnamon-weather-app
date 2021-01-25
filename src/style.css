@@ -3,7 +3,7 @@
     padding-top: -3 auto;
     margin-left: -14px;
     font-size: 13px;
-    color: lightseagreen;
+    color: #23477F;
 }
 
 .city-input {
@@ -15,6 +15,17 @@
     padding: 25px;
     border: 1px solid #cbcef1cc;
     border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.icon {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
 }
 
 .lisbontrain{
@@ -66,7 +77,8 @@ ul{
 li{
     
     color: #6d6868;
-    font-size: 15px;
+    font-size: 13px;
+    text-align: center;
 }
 li::first-letter {
     text-transform: capitalize;
@@ -80,21 +92,21 @@ li::first-letter {
 
 .weather-forecast h3{
     font-weight: 400;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1px;
     padding-top: 5px;
 }
 
 .weather-forecast img{
     display: block;
-    width: 19px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 
 }
 
 .weather-forecast-temperature {
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 300;
     line-height: 15px;
 }
