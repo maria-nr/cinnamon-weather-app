@@ -77,6 +77,27 @@ li::first-letter {
     
 }
 
+.weather-forecast h3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1px;
+    padding-top: 5px;
+}
+
+.weather-forecast img{
+    display: block;
+    width: 19px;
+    height: 25px;
+
+}
+
+.weather-forecast-temperature {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
 small {
     text-align: center;
     display: block;
