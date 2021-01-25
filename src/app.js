@@ -21,21 +21,26 @@ function displayTemperature (response) {
         let citElement = document.querySelector (".lisbontrain")
         citElement.setAttribute ("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVR-TlvPmkhJajvMVvmJJgdKjNBUmNOq_d-9y2xdKGKziNlMiNi5VDOPzaE1UkObzJxpWMeDLxhYkV9AfCEaRk7MNxvFGii19Asg&usqp=CAU&ec=45761792"); 
         }
-        if (city = "london") {
+      if (city = "london") {
           let citElement = document.querySelector (".lisbontrain")
           citElement.setAttribute ("src", "https://i.pinimg.com/originals/4d/15/b2/4d15b236540f2254f6b14decf9416c3a.jpg"); 
           }
-          if (city = "New york") {
+      if (city = "New york") {
             let citElement = document.querySelector (".lisbontrain")
             citElement.setAttribute ("src", "https://previews.123rf.com/images/valeriyabtsk/valeriyabtsk1803/valeriyabtsk180300089/98830156-dibujo-acuarela-de-la-estatua-de-la-libertad-nueva-york-ee-uu-en-la-ilustraci%C3%B3n.jpg"); 
             }
-            if (city = "Paris") {
+      if (city = "Paris") {
               let citElement = document.querySelector (".lisbontrain")
               citElement.setAttribute ("src", "https://thumbs.dreamstime.com/b/watercolor-drawing-notre-dame-aquarelle-paris-view-painting-70263175.jpg"); 
               }
-              if (city = "Tokio") {
+      if (city = "Tokyo") {
                 let citElement = document.querySelector (".lisbontrain")
                 citElement.setAttribute ("src", "https://assets.illustrarama.com/e0ea0f1a6ddb7962fb10100fb7e3a59b/59d1be53ed85e3da598d424ca10ef815-1594269010709"); 
+                }
+                else {
+                  let citElement = document.querySelector (".lisbontrain")
+                citElement.setAttribute ("src", "https://media.istockphoto.com/illustrations/watercolor-sketch-of-typical-view-of-amsterdam-illustration-id1202563807"); 
+                
                 }
                 
             
@@ -56,7 +61,7 @@ function displayTemperature (response) {
 }
 
 let apiKey = "c522524629fe11fe83aebe5bb3814efa";
-let city = "Tokio";
+let city = "london";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   
 
